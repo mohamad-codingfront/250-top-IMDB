@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session 21 - IMDB Top 250</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+
+<body>
+    <main>
+
+        <section class="py-5 text-center container">
+            <div class="row py-lg-5">
+                <div class="col-lg-6 col-md-8 mx-auto">
+                    <h1 class="fw-light">IMDB Top 250</h1>
+                    <p class="lead text-body-secondary">CodingFront Javascript Project</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="album py-5 bg-body-tertiary">
+            <div class="container">
+
+                <div class="spinner-border m-auto d-block" style="width: 3rem; height: 3rem;" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+
+                <div id="moviesList" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                </div>
+
+                <nav class="mt-4" aria-label="Page navigation example">
+                    <ul class="pagination"></ul>
+                </nav>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
